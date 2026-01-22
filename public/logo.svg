@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4b76e"/>
+      <stop offset="50%" style="stop-color:#c49a47"/>
+      <stop offset="100%" style="stop-color:#b07d3a"/>
+    </linearGradient>
+    <linearGradient id="darkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#262626"/>
+      <stop offset="100%" style="stop-color:#171717"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#darkGradient)" stroke="url(#goldGradient)" stroke-width="3"/>
+  
+  <!-- Building Icon -->
+  <g fill="url(#goldGradient)">
+    <!-- Main Building -->
+    <rect x="70" y="60" width="60" height="80" rx="2"/>
+    
+    <!-- Windows -->
+    <rect x="78" y="70" width="12" height="12" fill="#171717" rx="1"/>
+    <rect x="110" y="70" width="12" height="12" fill="#171717" rx="1"/>
+    <rect x="78" y="90" width="12" height="12" fill="#171717" rx="1"/>
+    <rect x="110" y="90" width="12" height="12" fill="#171717" rx="1"/>
+    <rect x="78" y="110" width="12" height="12" fill="#171717" rx="1"/>
+    <rect x="110" y="110" width="12" height="12" fill="#171717" rx="1"/>
+    
+    <!-- Door -->
+    <rect x="92" y="118" width="16" height="22" fill="#171717" rx="1"/>
+    
+    <!-- Roof Accent -->
+    <polygon points="60,60 100,35 140,60" fill="url(#goldGradient)"/>
+    
+    <!-- Side Building Left -->
+    <rect x="40" y="90" width="30" height="50" rx="2"/>
+    <rect x="46" y="98" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="56" y="98" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="46" y="112" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="56" y="112" width="8" height="8" fill="#171717" rx="1"/>
+    
+    <!-- Side Building Right -->
+    <rect x="130" y="90" width="30" height="50" rx="2"/>
+    <rect x="136" y="98" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="146" y="98" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="136" y="112" width="8" height="8" fill="#171717" rx="1"/>
+    <rect x="146" y="112" width="8" height="8" fill="#171717" rx="1"/>
+  </g>
+  
+  <!-- LE Text -->
+  <text x="100" y="165" text-anchor="middle" fill="url(#goldGradient)" font-family="Georgia, serif" font-size="18" font-weight="bold" letter-spacing="4">LUXE ESTATES</text>
+</svg>
