@@ -1,0 +1,10 @@
+# Robots.txt for Luxe Estates
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://luxeestates.vercel.app/sitemap.xml
+
+# Disallow admin routes from indexing
+Disallow: /admin
+Disallow: /admin/*
